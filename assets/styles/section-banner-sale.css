@@ -10,7 +10,7 @@
     width: 468px;
     height: 60px;
     border-radius: 20px;
-    background: rgba(19, 171, 123, 0.2);
+    background: rgb(89, 99, 95);
     z-index: 1000;
     padding: 0 30px;
     display: flex;
@@ -18,6 +18,8 @@
     justify-content: center;
     gap: 20px;
 }
+.section-banner-sale .container .banner p{
+    color: #ffffff;
 
 
 @keyframes button-banner-sale {
