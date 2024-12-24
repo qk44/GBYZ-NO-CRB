@@ -557,13 +557,13 @@
 
 
     .section-garant {
-        padding: 46px 0 60px 0;
+        padding: 46px 0 40px 0;
         background: #ffffff;
     }
     .section-garant .container {
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        gap: 36px;
     }
     .section-garant .container .block{
         display: flex;
@@ -709,7 +709,9 @@
         flex-direction: column;
         gap: 4px;
     }
-    
+    .section-banner{
+        padding: 0 0 60px 0;
+    }
 
 }
 
@@ -1276,13 +1278,13 @@
 
 
     .section-garant {
-        padding: 46px 0 60px 0;
+        padding: 46px 0 40px 0;
         background: #ffffff;
     }
     .section-garant .container {
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        gap: 36px;
     }
     .section-garant .container .block{
         display: flex;
@@ -1389,6 +1391,9 @@
         align-items: center;
         text-align: center;
         margin: auto 0;
+    }
+    .section-banner{
+        padding: 0 0 60px 0;
     }
 
 
