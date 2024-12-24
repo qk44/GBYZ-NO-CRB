@@ -1,0 +1,65 @@
+.section-banner-sale{
+    padding: 0 0 40px 0;
+    background: #F6F8F7;
+}
+.section-banner-sale .container{
+    display: flex;
+    justify-content: center;
+}
+.section-banner-sale .container .banner{
+    width: 468px;
+    height: 60px;
+    border-radius: 20px;
+    background: rgba(19, 171, 123, 0.2);
+    z-index: 1000;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+@keyframes button-banner-sale {
+    from {
+        width: fit-content;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        padding: 0 26px; 
+        background: #13ab7b;
+        border-radius: 40px;
+        color: #fff;
+        font-size: 12px;
+      }
+    
+    to {
+        width: fit-content;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0 28px; 
+        background: #28926E;
+        border-radius: 40px;
+        color: #fff;;
+        font-size: 14px;
+    
+      }
+}
+
+.section-banner-sale .container .banner .but-banner{    
+    width: fit-content;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px; 
+    background: #13ab7b;
+    border-radius: 40px;
+    color: #fff;
+    animation-name: button-banner-sale;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-size: 12px;
+}

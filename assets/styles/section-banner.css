@@ -1,0 +1,62 @@
+.section-banner{
+    padding: 0 0 60px 0;
+}
+.section-banner .container{
+    display: flex;
+    justify-content: center;
+}
+.section-banner .container .banner{
+    width: 728px;
+    height: 90px;
+    border-radius: 20px;
+    background: rgba(19, 171, 123, 0.2);
+    z-index: 1000;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+@keyframes button-banner {
+    from {
+        width: fit-content;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        padding: 0 26px; 
+        background: #13ab7b;
+        border-radius: 40px;
+        color: #fff;
+      }
+    
+    to {
+        width: fit-content;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0 38px; 
+        background: #28926E;
+        border-radius: 40px;
+        color: #fff;;
+        font-size: 16px;
+        margin-left: 20px;
+      }
+}
+
+.section-banner .container .banner .but-banner{    
+    width: fit-content;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    padding: 0 26px; 
+    background: #13ab7b;
+    border-radius: 40px;
+    color: #fff;
+    animation-name: button-banner;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
