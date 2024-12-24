@@ -57,7 +57,7 @@
     border-radius: 40px;
     color: #fff;
     animation-name: button-banner-sale;
-    animation-duration: 1.5s;
+    animation-duration: 0.66s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
